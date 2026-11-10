@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+.DS_Store
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Other file types currently in the project
+*.toml
+*.lock
+.python-version
+
+# Local notebook memory (including SQLite sidecar files)
+*.sqlite3*
+
+# Local logs/traces/outputs/models/data
+*/logs/
+*/outputs/
+*/models/
+*.jsonl
+*.csv
+*.json
